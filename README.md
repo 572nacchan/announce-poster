@@ -164,6 +164,10 @@ npm start
 - **`state.json` のリセット**: `state.json` を削除または中身を空にすると、次回実行時に全件を「初回実行」として扱い投稿しません（再び初回実行扱いになります）
 - **`.env` と `feeds.json` はGitで管理しない**: パスワードや個人設定が含まれるため `.gitignore` に追加済みです
 
+## フィードバック・バグ報告
+
+バグの報告や機能の要望は [GitHub Issues](https://github.com/572nacchan/announce-poster/issues) からお気軽にどうぞ。
+
 ## ライセンス
 
 MIT
