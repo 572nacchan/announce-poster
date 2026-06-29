@@ -1,0 +1,6 @@
+.env
+feeds.json
+state.json
+node_modules/
+*.log
+CLAUDE.md

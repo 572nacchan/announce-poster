@@ -1,0 +1,48 @@
+{
+  "wordpress": {
+    "url": "https://your-site.com",
+    "username": "your-wp-username",
+    "categoryId": 1
+  },
+  "feeds": [
+    {
+      "name": "youtube",
+      "type": "youtube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=YOUR_CHANNEL_ID",
+      "tags": [],
+      "post": {
+        "titlePrefix": "動画更新：",
+        "intro": "新しい動画を公開しました！",
+        "channelName": "あなたのチャンネル名",
+        "channelUrl": "https://www.youtube.com/@yourchannel"
+      }
+    },
+    {
+      "name": "radio",
+      "type": "rss",
+      "url": "https://stand.fm/rss/YOUR_CHANNEL_ID",
+      "tags": [],
+      "thumbnailId": null,
+      "fetchOgImage": false,
+      "post": {
+        "titlePrefix": "ラジオ更新：",
+        "intro": "新しいエピソードを公開しました！",
+        "channelName": "あなたのラジオ",
+        "channelUrl": "https://stand.fm/channels/YOUR_ID"
+      }
+    },
+    {
+      "name": "note",
+      "type": "rss",
+      "url": "https://note.com/username/rss",
+      "tags": [],
+      "fetchOgImage": true,
+      "post": {
+        "titlePrefix": "記事更新：",
+        "intro": "新しい記事を投稿しました！",
+        "siteName": "note",
+        "siteUrl": "https://note.com/username"
+      }
+    }
+  ]
+}
