@@ -1,0 +1,108 @@
+<svg viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg" role="img" width="1280" height="640">
+  <title>announce-poster — RSS を WordPress 下書きに自動変換する CLI ツール</title>
+  <defs>
+    <pattern id="dots" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="1" fill="#363a4f"/>
+    </pattern>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L0,8 L10,4 z" fill="#8aadf4"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="640" fill="#24273a"/>
+  <rect width="1280" height="640" fill="url(#dots)" opacity="0.5"/>
+
+  <rect x="0" y="0" width="1280" height="5" fill="#8aadf4"/>
+
+  <text x="640" y="148"
+        text-anchor="middle"
+        font-family="'Courier New', Consolas, monospace"
+        font-size="82" font-weight="700" letter-spacing="-2"
+        fill="#cad3f5">announce-poster</text>
+
+  <rect x="578" y="160" width="80" height="30" rx="15" fill="#363a4f"/>
+  <text x="618" y="181" text-anchor="middle"
+        font-family="'Courier New', monospace" font-size="15"
+        fill="#c6a0f6">v0.1.0</text>
+  <rect x="666" y="160" width="64" height="30" rx="15" fill="#363a4f"/>
+  <text x="698" y="181" text-anchor="middle"
+        font-family="'Courier New', monospace" font-size="15"
+        fill="#c6a0f6">MIT</text>
+
+  <text x="640" y="232"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="28" fill="#a5adcb">RSS フィードを WordPress の下書きに自動変換する Node.js CLI ツール</text>
+
+  <rect x="220" y="300" width="230" height="130" rx="14" fill="#2a2d40"/>
+  <rect x="220" y="300" width="230" height="5" rx="3" fill="#eed49f"/>
+  <text x="335" y="350" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="19" font-weight="700"
+        fill="#cad3f5">YouTube / RSS</text>
+  <text x="335" y="378" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="16"
+        fill="#a5adcb">stand.fm</text>
+  <text x="335" y="402" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="16"
+        fill="#a5adcb">note · podcast</text>
+
+  <line x1="455" y1="365" x2="512" y2="365" stroke="#8aadf4" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="515" y="288" width="250" height="154" rx="14" fill="#2a2d40"/>
+  <rect x="515" y="288" width="250" height="154" rx="14" fill="none" stroke="#8aadf4" stroke-width="2"/>
+  <text x="640" y="342" text-anchor="middle"
+        font-family="'Courier New', Consolas, monospace"
+        font-size="20" font-weight="700"
+        fill="#8aadf4">announce-poster</text>
+  <text x="640" y="374" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="16"
+        fill="#a5adcb">新着検知 → 下書き生成</text>
+  <text x="640" y="396" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="16"
+        fill="#a5adcb">サムネ自動取得</text>
+  <rect x="572" y="412" width="136" height="24" rx="12" fill="#363a4f"/>
+  <text x="640" y="429" text-anchor="middle"
+        font-family="'Courier New', monospace" font-size="14"
+        fill="#8aadf4">--dry-run 対応</text>
+
+  <line x1="769" y1="365" x2="826" y2="365" stroke="#8aadf4" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <rect x="830" y="300" width="230" height="130" rx="14" fill="#2a2d40"/>
+  <rect x="830" y="300" width="230" height="5" rx="3" fill="#a6da95"/>
+  <text x="945" y="350" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="19" font-weight="700"
+        fill="#cad3f5">WordPress</text>
+  <text x="945" y="378" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="16"
+        fill="#a5adcb">下書きを自動生成</text>
+  <text x="945" y="402" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="16"
+        fill="#a5adcb">サムネも自動付与</text>
+
+  <line x1="160" y1="490" x2="1120" y2="490" stroke="#363a4f" stroke-width="1"/>
+
+  <rect x="380" y="510" width="120" height="30" rx="15" fill="#363a4f"/>
+  <text x="440" y="530" text-anchor="middle"
+        font-family="'Courier New', monospace" font-size="15"
+        fill="#a6da95">Node.js 18+</text>
+
+  <rect x="515" y="510" width="65" height="30" rx="15" fill="#363a4f"/>
+  <text x="548" y="530" text-anchor="middle"
+        font-family="'Courier New', monospace" font-size="15"
+        fill="#8aadf4">OSS</text>
+
+  <rect x="595" y="510" width="90" height="30" rx="15" fill="#363a4f"/>
+  <text x="640" y="530" text-anchor="middle"
+        font-family="'Courier New', monospace" font-size="15"
+        fill="#eed49f">WordPress</text>
+
+  <rect x="700" y="510" width="200" height="30" rx="15" fill="#363a4f"/>
+  <text x="800" y="530" text-anchor="middle"
+        font-family="'Courier New', monospace" font-size="15"
+        fill="#f5bde6">feeds.json で設定</text>
+
+  <text x="640" y="595"
+        text-anchor="middle"
+        font-family="'Courier New', Consolas, monospace"
+        font-size="20" fill="#6e738d">github.com/572nacchan/announce-poster</text>
+</svg>

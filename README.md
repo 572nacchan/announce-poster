@@ -1,5 +1,7 @@
 # announce-poster
 
+![](.github/social-preview.svg)
+
 YouTube・RSSフィードの新着を検知して、WordPressに「お知らせ」下書きを自動生成するツールです。
 
 ## 特徴
