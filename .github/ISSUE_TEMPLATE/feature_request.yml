@@ -1,0 +1,36 @@
+name: 機能要望
+description: 新しい機能や改善点を提案する
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        アイデアを教えていただきありがとうございます！
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: どんな課題がありますか？
+      description: この機能が必要な背景・困っていることを教えてください
+      placeholder: "例：stand.fmのエピソードにiframe埋め込みを入れたい"
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: どんな解決策を想定していますか？
+      description: 実現したいことを具体的に教えてください（案がなくてもOK）
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 他に試した方法はありますか？
+      description: 代替手段や回避策があれば教えてください
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: その他・補足

@@ -1,0 +1,66 @@
+name: バグ報告
+description: 動作しない・エラーが出るなどの不具合を報告する
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        バグ報告ありがとうございます。できるだけ詳しく教えていただけると助かります。
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 何が起きましたか？
+      description: 発生した問題を具体的に教えてください
+      placeholder: "例：node index.js を実行するとエラーが出て止まる"
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: エラーメッセージ
+      description: 表示されたエラーメッセージをそのまま貼り付けてください
+      render: shell
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 本来どうなるべきでしたか？
+      placeholder: "例：WordPressに下書きが作成されるはず"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feed_type
+    attributes:
+      label: フィードの種類
+      description: 問題が起きているフィードの種類を選んでください
+      options:
+        - youtube
+        - rss
+        - 両方
+        - 起動時（フィード取得前）
+        - わからない
+    validations:
+      required: true
+
+  - type: input
+    id: node_version
+    attributes:
+      label: Node.jsのバージョン
+      description: "`node --version` の出力を貼り付けてください"
+      placeholder: "例：v20.11.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
